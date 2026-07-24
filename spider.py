@@ -30,7 +30,7 @@ if not row is None:
 else:
     starturl = input('Enter a website:')
     if len(starturl) < 1:
-        starturl = 'http://www.dr-chuck.com/'
+        starturl = 'https://www.jleague.co/'
     if starturl.endswith('/'):
          starturl = starturl[:-1]
     web = starturl
